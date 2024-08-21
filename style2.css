@@ -40,6 +40,44 @@ body{
 .cart2Img img{
   mix-blend-mode: darken;
 }
+.cart2Info{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  justify-content: center;
+}
+.cart2Info h3{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(34, 34, 34, 1);
+}
+.cart2Badge{
+  position: relative;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px 0 ;
+}
+.cart2Badge span{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+.cart2Info .cart2Badge{
+  background-color: rgba(233, 25, 46, 1);
+  padding: 2px 6px 2px 14px;
+  width: fit-content;
+}
+.qar{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  top: 1px;
+  right: 3px;
+}
 
 
 
