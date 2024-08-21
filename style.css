@@ -49,9 +49,15 @@ body{
   width: 100%;
 }
 .cartImg p{
+  overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 1;
-  text-overflow: ellipsis;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  color: rgba(255, 26, 88, 1);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
 }
 .btn{
   width: 100%;
