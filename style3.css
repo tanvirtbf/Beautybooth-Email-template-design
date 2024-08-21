@@ -65,8 +65,68 @@ body{
   color: rgba(0, 0, 0, 1);
 }
 
-
-
+.newCollection{
+  padding: 0 20px;
+  margin-top: 72px;
+}
+.newCollection h2{
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 28px;
+}
+.cart3-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cart3{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.cart3Left{
+  width: 100%;
+}
+.cart3Left img{
+  width: 100%;
+}
+.cart3Right{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:16px;
+}
+.cart3Right h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: rgba(34, 34, 34, 1);
+}
+.cart3Right p{
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(255, 26, 88, 1);
+}
+.cart3Right button{
+  width: 206px;
+  height: 48px;
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  cursor: pointer;
+}
 
 
 
