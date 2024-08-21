@@ -11,8 +11,24 @@ body{
 }
 main{
   max-width: 600px;
-
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .logo{
-  height: 84px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.banner{
+  margin-bottom: 20px;
+}
+.banner img{
+  width: 100%;
+}
+.cart{
+  padding: 10px;
+}
+
+
+
