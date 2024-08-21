@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  width: 100%;
+  height: 100%;
+  border-top: 7px solid rgba(255, 26, 88, 1);
+}
+.main2{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo2{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner2{
+  margin-bottom: 20px;
+}
+.banner2 img{
+  width: 100%;
+}
+
+
+
+
+
+
