@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.main3{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.logo3{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero3{
+  background-image: linear-gradient(rgba(135, 0, 65, 1), rgba(183, 0, 0, 1));
+  padding: 0 40px 60px 40px;
+  border-radius: 0 0 300px 300px;
+}
+
+.bannerImg3{
+  width: 100%;
+}
+.bannerImg3 .secondImg{
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: end;
+  margin-top: -240px;
+}
+.italicText{
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 64px;
+}
+.bannerBtn{
+  margin: 0 auto;
+  box-shadow: 4px 8px 15.5px 0px rgba(22, 22, 22, 1);
+  border-radius: 150px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 220px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.bannerBtn button{
+  background-color: inherit;
+  border: none;
+  font-size: 24px;
+  line-height: 16px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 1);
+}
+
+.newCollection{
+  padding: 0 20px;
+  margin-top: 72px;
+}
+.newCollection h2{
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 28px;
+}
+.cart3-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cart3{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.cart3Left{
+  width: 100%;
+}
+.cart3Left img{
+  width: 100%;
+}
+.cart3Right{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:16px;
+}
+.cart3Right h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: rgba(34, 34, 34, 1);
+}
+.cart3Right p{
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(255, 26, 88, 1);
+}
+.cart3Right button{
+  width: 206px;
+  height: 48px;
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.summary{
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgba(223, 243, 252, 1);
+  border-radius: 6px;
+  padding: 16px 0px;
+}
+.summary-wrap{
+  max-width: 600px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  gap:5px;
+  justify-content: space-between;
+}
+.single-summary{
+  text-align: center;
+  flex-basis: 30%;
+  flex-grow: 1;
+}
+.single-summary p{
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+.textArea{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+}
+.textArea p{
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.red-text{
+  color: rgba(255, 26, 88, 1);
+}
+.download-app{
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(241, 242, 247, 1);
+  padding: 36px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.download-app .text{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.download-app .text h3{
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+.download-app .text p{
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(90, 90, 90, 1);
+}
+.app-button{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.app-button button{
+  border: none;
+  cursor: pointer;
+}
+.app-button button img{
+  width: fit-content;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 0;
+}
+.footer .info{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.footer .info span{
+  text-decoration: underline;
+}
+.social-media-icon{
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+}
+.social-media-icon img{
+  cursor: pointer;
+}
+.footer .lastMessage{
+  color: rgba(113, 113, 113, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+
+
+
+
